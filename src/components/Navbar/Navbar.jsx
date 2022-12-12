@@ -28,7 +28,7 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
-        <div className='bg-black p-4 w-full justify-around'>
+        <div className='flex bg-black p-4 w-full justify-around'>
             <div className='text-white font-inter text-base text-center font-normal tracking-normal leading-none text-cursor'>
                 50% OFF
             </div>
