@@ -19,7 +19,7 @@ const Slider = () => {
                   <div  key={list.id} className={parseInt(list.id) === sliderIndex ? "opacity-100 duration-700 ease-in-out scale-100" : "opacity-0 duration-700 ease-in-out scale-95"}>
                     <div>
                       {parseInt(list.id) === sliderIndex && (
-                        <img src={list.img} alt="shoes" className='w-full h-30' />
+                        <img src={list.img} alt="shoes" className='w-full h-[750px]' />
                       )}
                     </div>
                     <div className='absolute top-44 mx-auto inset-x-1/4'>
@@ -31,11 +31,13 @@ const Slider = () => {
                 )
             })}
         </div>
-        <div className='flex absolute bottom-10 left-[45%]'>
+        <div className='flex absolute bottom-12 left-[45%]'>
            {data.map((dot, index) => {
              return (
-                <div className={index === sliderIndex ? 'bg-green-300 rounded-full p-4 cursor-pointer' : "bg-white-300 rounded-full p-4 cursor-pointer"} onClick={() => dispatch(dotSlide(index))}>
+                <div className="mr-4" key={dot.id}>
+                    <div className={index === sliderIndex ? 'bg-green-300 rounded-full p-4 cursor-pointer' : 'bg-orange-50 rounded-full p-4 cursor-pointer'} onClick={() => dispatch(dotSlide(index))}>
 
+                     </div>
                 </div>
              )
            })}
