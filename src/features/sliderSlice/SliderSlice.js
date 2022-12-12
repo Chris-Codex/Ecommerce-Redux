@@ -13,8 +13,6 @@ const sliderSlice = createSlice({
 
     reducers: {
         nextSlide: (state, action) => {
-            console.log("action", action)
-            console.log("state", state)
             state.value = action.payload > state.length - 1 ? 0 : action.payload;
         },
 
@@ -24,7 +22,6 @@ const sliderSlice = createSlice({
 
         dotSlide: (state, action) => {
          const slide = action.payload
-         console.log("Dot", slide)
          state.value = slide
         }
     }

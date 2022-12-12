@@ -1,4 +1,3 @@
-import React from 'react'
 import { nextSlide, prevSlide, dotSlide } from '../../features/sliderSlice/SliderSlice'
 import { useSelector, useDispatch } from "react-redux"
 import { data } from './../../assets/data/data';

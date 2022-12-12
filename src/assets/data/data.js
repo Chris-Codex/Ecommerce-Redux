@@ -2,6 +2,12 @@ import shoe1 from "../../assets/shoe1.jpg"
 import shoe2 from "../../assets/shoe2.jpg"
 import shoe3 from "../../assets/shoe3.jpg"
 import shoe4 from "../../assets/shoe4.jpg"
+import shirt1 from "../../assets/shirt1.jpg"
+import shirt2 from "../../assets/shirt2.jpg"
+import shirt3 from "../../assets/shirt3.jpg"
+import shirt4 from "../../assets/shirt4.jpg"
+import hoodies1 from "../../assets/hoodies1.jpg"
+import hoodies2 from "../../assets/hoodies2.jpg"
 
 export const data = [
     {
@@ -27,4 +33,96 @@ export const data = [
         img: shoe4,
         text: "Choose between basketball and fashion or choose both"
     }
+]
+
+export const storeData = [
+    {
+        id: 1,
+        img: shirt1,
+        name: "Marko Derena",
+        type: "T-Shirts",
+        size: ["S", "M", "L", "XL"],
+        color: ["black", "gray", "green"],
+        gender: "male",
+        price: 45
+    },
+
+    {
+        id: 2,
+        img: shirt2,
+        name: "Marko Derena",
+        type: "T-Shirts",
+        size: ["S", "M", "L", "XL"],
+        color: ["black", "red", "blue"],
+        gender: "male",
+        price: 55
+    },
+
+    {
+        id: 3,
+        img: shirt3,
+        name: "Marko Derena",
+        type: "T-Shirts",
+        size: ["S", "M", "L", "XL"],
+        color: ["brown", "gray", "blue"],
+        gender: "male",
+        price: 75
+    },
+
+    {
+        id: 4,
+        img: shirt4,
+        name: "Marko Derena",
+        type: "T-Shirts",
+        size: ["S", "M", "L", "XL"],
+        color: ["black", "red", "blue"],
+        gender: "male",
+        price: 55
+    },
+
+    {
+        id: 5,
+        img: hoodies1,
+        name: "Mark Spencer",
+        type: "Hoodies",
+        size: ["S", "M", "L", "XL"],
+        color: ["black", "red", "blue"],
+        gender: "male",
+        price: 25
+    },
+
+    {
+        id: 6,
+        img: hoodies2,
+        name: "Mark Spencer",
+        type: "Hoodies",
+        size: ["S", "M", "L", "XL"],
+        color: ["black", "red", "blue"],
+        gender: "male",
+        price: 325
+    },
+
+    // {
+    //     id: 7,
+    //     img: hoodies3,
+    //     name: "Mark Spencer",
+    //     type: "Hoodies",
+    //     size: ["S", "M", "L", "XL"],
+    //     color: ["yellow", "red", "green"],
+    //     gender: "male",
+    //     price: 85
+    // },
+
+    // {
+    //     id: 8,
+    //     img: hoodies4,
+    //     name: "Mark Spencer",
+    //     type: "Hoodies",
+    //     size: ["S", "M", "L", "XL"],
+    //     color: ["red", "brown", "blue"],
+    //     gender: "male",
+    //     price: 95
+    // },
+
+
 ]
