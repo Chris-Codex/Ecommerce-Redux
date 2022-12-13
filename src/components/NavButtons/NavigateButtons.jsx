@@ -17,7 +17,7 @@ const NavigateButtons = () => {
             return (
               <div  key={index} className="mr-4">
                 <Link to={`/filtered-products/` + button}>
-                  <Button className="hover:bg-green-300 duration-300 ease-in-out"
+                  <Button className="hover:bg-gray-300 duration-300 ease-in-out"
                   onClick={() => dispatch(filterProducts(button))} color="gray" size="lg" variant="outlined" ripple={true} >{button}</Button>
                 </Link>
               </div>

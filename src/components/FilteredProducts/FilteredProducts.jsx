@@ -14,9 +14,9 @@ const FilteredProducts = () => {
     console.log("params", type)
   return (
     <div>
-        <div className='pt-16'>
+        <div className=' mr-10 ml-10 pt-16'>
             <div className='pl-14'>
-                <h1 className='text-4xl font-inter text-gray-600 font-bold tracking-normal leading-none'>{type}</h1>
+                <h1 className='text-4xl mr-20] font-inter text-gray-600 font-bold tracking-normal leading-none'>{type}</h1>
             </div>
             <div className='grid grid-cols-4 justify-items-center py-8 gap-12'>
                 {products
