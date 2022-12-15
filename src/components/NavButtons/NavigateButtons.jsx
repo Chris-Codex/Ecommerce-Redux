@@ -29,7 +29,7 @@ const NavigateButtons = () => {
           <h3 className="text-orange-900 text-center text-lg font-inter font-bold leading-none">SALES UP TO 50%</h3>
         </div>
         <div className="flex justify-center item-center p-4">
-          <img className="h-[600px] w-[90%] rounded-md shadow-lg shadow-gray-600" src={single} alt="clothes" />
+          <img className="h-[400px] w-[86%] rounded-md shadow-lg shadow-gray-600" src={single} alt="clothes" />
         </div>
     </div>
   )

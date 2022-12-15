@@ -13,14 +13,14 @@ const SingleProduct = () => {
     const [size, setSize] = useState(productSize)
     const [color, setColor] = useState(productColor)
     const {id} = useParams()
-    
+    console.log("ID", id)
 
-    
     
   return (
     <div>
-        {products.map((item, index) => {
-            console.log("ITEM", item)
+        {products.filter((product) => product.id == id).map((item, index) => {
+            
+            
                 return (
                     <div key={index} className='flex justify-center items-center py-10'>
                         <div className='pl-44 grow-[2]'>
@@ -86,6 +86,8 @@ const SingleProduct = () => {
                                     <Button onClick={() => dispatch(addToCart({
                                         id: item.id,
                                         name: item.name,
+                                        img: item.img,
+                                        text: item.text,
                                         size: size,
                                         color: color,
                                         price: item.price,

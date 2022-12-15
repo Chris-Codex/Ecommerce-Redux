@@ -45,7 +45,7 @@ export const storeData = [
         size: ["S", "M", "L", "XL"],
         color: ["black", "gray", "green"],
         gender: "male",
-        price: 45
+        price: 45,
     },
 
     {
@@ -57,7 +57,7 @@ export const storeData = [
         size: ["S", "M", "L", "XL"],
         color: ["black", "red", "blue"],
         gender: "male",
-        price: 55
+        price: 55,
     },
 
     {
@@ -69,7 +69,7 @@ export const storeData = [
         size: ["S", "M", "L", "XL"],
         color: ["brown", "gray", "blue"],
         gender: "male",
-        price: 75
+        price: 75,
     },
 
     {
@@ -81,7 +81,7 @@ export const storeData = [
         size: ["S", "M", "L", "XL"],
         color: ["black", "red", "blue"],
         gender: "male",
-        price: 55
+        price: 55,
     },
 
     {
@@ -93,7 +93,7 @@ export const storeData = [
         size: ["S", "M", "L", "XL"],
         color: ["black", "red", "blue"],
         gender: "male",
-        price: 25
+        price: 25,
     },
 
     {
@@ -105,7 +105,7 @@ export const storeData = [
         size: ["S", "M", "L", "XL"],
         color: ["black", "red", "blue"],
         gender: "male",
-        price: 325
+        price: 325,
     },
 
     // {
