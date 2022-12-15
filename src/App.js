@@ -5,6 +5,8 @@ import FilteredProducts from './components/FilteredProducts/FilteredProducts';
 import Main from './components/Main/Main';
 import SingleProduct from './components/FilteredProducts/SingleProduct';
 import { useSelector } from 'react-redux';
+import Login from './components/Login/Login';
+
 
 
 
@@ -24,6 +26,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
+          <Route path="/login" element={<Login />} />
           <Route path="filtered-products/:type" element={<FilteredProducts />} />
           <Route path='filtered-products/:type/:id' element={<SingleProduct />} />
         </Routes>

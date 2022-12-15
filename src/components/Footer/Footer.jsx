@@ -14,7 +14,7 @@ const Footer = () => {
                 <img className='h-20' src={logo} alt="name" />
             </div>
             <div>
-                <p className='text-black text-sm font-inter no-underline normal-case'>Copyright &copy {year} page by Christian</p>
+                <p className='text-black text-sm font-inter no-underline normal-case'>Copyright {year} page by Christian</p>
             </div>
         </div>
     </div>
